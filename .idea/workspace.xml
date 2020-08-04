@@ -2,12 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f14c60da-319b-4f44-a748-f38e34a5dab0" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/resources/views/index.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/layouts/footer.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/layouts/header.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/layouts/main.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -166,7 +161,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1596399664464</updated>
-      <workItem from="1596399666232" duration="2388000" />
+      <workItem from="1596399666232" duration="4841000" />
     </task>
     <servers />
   </component>
@@ -178,5 +173,9 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="795" y="444" key="NewPhpFileDialog/0.0.1920.1040/0.-1080.1920.1040@0.0.1920.1040" timestamp="1596403517346" />
+    <state x="655" y="345" key="com.intellij.ide.util.TipDialog" timestamp="1596565745794">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="655" y="345" key="com.intellij.ide.util.TipDialog/0.0.1920.1040/0.-1080.1920.1040@0.0.1920.1040" timestamp="1596565745794" />
   </component>
 </project>
