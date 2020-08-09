@@ -1672,6 +1672,7 @@ input, select, textarea {
 			background: #20b0e5;
 		}
 
+		/* Button alt */
 		input[type="button"].alt,
 		input[type="submit"].alt,
 		input[type="reset"].alt,
@@ -1696,6 +1697,35 @@ input, select, textarea {
 			input[type="reset"].alt:active,
 			button.alt:active,
 			.button.alt:active {
+				background: #e4e4e4;
+				background: rgba(0, 0, 0, 0.15);
+			}
+
+		/* Button alt2 */
+		input[type="button"].alt2,
+		input[type="submit"].alt2,
+		input[type="reset"].alt2,
+		button.alt2,
+		.button.alt2 {
+			background: #c21d1d;
+			background: rgba(179, 41, 41, 0.05);
+			color: rgb(68, 68, 68);
+		}
+
+			input[type="button"].alt2:hover,
+			input[type="submit"].alt2:hover,
+			input[type="reset"].alt2:hover,
+			button.alt2:hover,
+			.button.alt2:hover {
+				background: #e8e8e8;
+				background: rgba(0, 0, 0, 0.085);
+			}
+
+			input[type="button"].alt2:active,
+			input[type="submit"].alt2:active,
+			input[type="reset"].alt2:active,
+			button.alt2:active,
+			.button.alt2:active {
 				background: #e4e4e4;
 				background: rgba(0, 0, 0, 0.15);
 			}
@@ -1908,7 +1938,8 @@ input, select, textarea {
 /* Wrappers */
 
 	#header-wrapper {
-		padding: 4.5em 0 3em 0;
+		/*padding: 4.5em 0 3em 0;*/
+		padding: 1em 0 1em 0;
 	}
 
 	#features-wrapper {
@@ -1938,12 +1969,13 @@ input, select, textarea {
 	}
 
 		#logo h1 {
-			background: #ff4486;
+			/* background: #ff4486; */ /* remove bg-color 2020.08.08 */
 			color: #fff;
 			border-radius: 6px;
 			font-family: 'Oleo Script', serif;
 			font-weight: 400;
-			padding: 0.25em 0.2em 0.25em 0.2em;
+			/*padding: 0.25em 0.2em 0.25em 0.2em;*/
+			padding: 0.15em 0.1em 0.15em 0.1em;
 			font-size: 3.25em;
 			letter-spacing: 0.05em;
 			display: inline-block;
@@ -1954,9 +1986,11 @@ input, select, textarea {
 			font-weight: 800;
 			line-height: 4.5em;
 			letter-spacing: 0.025em;
-			font-size: 0.9em;
+			/* font-size: 0.9em; */
+			font-size: 1.5em;
 			vertical-align: middle;
-			margin: 0 0 0 1.25em;
+			/*margin: 0 0 0 1.25em;*/
+			margin: 0 0 0 0.2em;
 		}
 
 /* Nav */
@@ -1964,8 +1998,10 @@ input, select, textarea {
 	#nav {
 		position: absolute;
 		right: 0;
-		top: 0;
-		font-size: 0.9em;
+		/*top: 0;*/
+		top: 1.0em;
+		/*font-size: 0.9em;*/
+		font-size: 1.0em;
 	}
 
 		#nav ul {
@@ -1976,7 +2012,8 @@ input, select, textarea {
 			#nav ul li {
 				float: left;
 				line-height: 4.5em;
-				padding-left: 1.5em;
+				/*padding-left: 1.5em;*/
+				padding-left: 1.0em;
 			}
 
 				#nav ul li a, #nav ul li span {
@@ -2111,6 +2148,56 @@ input, select, textarea {
 		}
 
 			#banner ul li {
+				padding-left: 0;
+			}
+
+/* Banner-About */
+
+	#banner-about {
+		position: relative;
+		padding: 4.5em;
+	}
+
+		#banner-about h2 {
+			font-size: 3.5em;
+			color: #ffffff;		/* color 2020.08.08 */
+			margin: 0.1em 0 0.35em 0;
+		}
+
+		#banner-about h3 {
+			color: #ffffff;		/* color 2020.08.08 */
+		}
+
+		#banner-about p {
+			font-size: 2.75em;
+			line-height: 1.35em;
+			color: #ffffff;		/* color 2020.08.08 */
+			margin: 0;
+		}
+
+		#banner-about .button {
+			width: 100%;
+			margin-bottom: 0.5em;
+		}
+
+			#banner-about .button.icon:before {
+				position: absolute;
+				right: 0.15em;
+				top: 50%;
+				margin-top: -0.5em;
+			}
+
+			#banner-about .button.alt {
+				margin-bottom: 0;
+			}
+
+		#banner-about ul {
+			list-style: none;
+			padding-left: 0;
+			margin: 0 0 0 2em;
+		}
+
+			#banner-about ul li {
 				padding-left: 0;
 			}
 
@@ -2253,7 +2340,8 @@ input, select, textarea {
 			}
 
 			#footer-wrapper {
-				padding: 6em 0 4em 0;
+				/*padding: 6em 0 4em 0;*/
+				padding: 1em 0 1em 0;
 			}
 
 		/* Header */
@@ -2664,6 +2752,39 @@ input, select, textarea {
 				}
 
 				#banner .button {
+					margin: 0 0 1em 0;
+				}
+
+		/* Banner-About */
+
+			#banner-about {
+				text-align: center;
+				padding: 15px 15px 15px 15px;
+				margin: 0 auto !important;
+			}
+
+				#banner-about h2 {
+					font-size: 2em;
+					color: #ffffff;		/* color 2020.08.08 */
+					margin: 0.75em 0 0.5em 0;
+				}
+
+				#banner-about h3 {
+					color: #ffffff;		/* color 2020.08.08 */
+				}
+
+				#banner-about p {
+					font-size: 1.5em;
+					line-height: 1.5em;
+					color: #ffffff;		/* color 2020.08.08 */
+					margin: 0;
+				}
+
+				#banner-about ul {
+					margin: 0;
+				}
+
+				#banner-about .button {
 					margin: 0 0 1em 0;
 				}
 
